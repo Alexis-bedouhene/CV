@@ -3,6 +3,7 @@ body {
     font-size: 12px;
     max-width: 960px;
     margin: auto;
+    background-image: url(picture.jfif);
 }
 
 
@@ -20,13 +21,15 @@ h2 {
 
 main { 
     display: grid;
-    grid-template-columns: 40% 60%;
-    margin-top: 3em;
+    grid-template-columns: 30% 70% ;
+    
 }
 
 header {
+    background-image: url(image.png);
+    border:5px solid rgba(0, 255, 229, 0.644);
     text-align: center;
-    margin: auto 2em;
+
 }
 
 section {
@@ -41,11 +44,7 @@ p {
     margin: .2em auto
 }
 
-hr {
-    border: none;
-    background-color: lightgray;
-    height: 1px;
-}
+
 
 h1, h2 {
     font-weight: 100;
@@ -53,5 +52,60 @@ h1, h2 {
 }
 
 #mainLeft {
-   border-right: 1px solid lightgray;
+    background-image:url(image.png);
+   border: 3px solid rgba(0, 255, 229, 0.644);
+   font-weight: bold;
 }
+.nom{
+position:relative;
+left: 430px;
+top: -15px;
+margin-top: 10%;
+
+}
+
+
+.toto{
+position:relative;
+left: 170px;
+top: 20px;
+padding-right: 21px;
+}
+.contact{
+display: inline-block;  
+background-color: #3c921b;    
+  border-radius: 50px;
+  text-align: center;           
+  margin-top: 30px; 
+  margin-left: -23px; 
+}
+.skill{
+display: inline-block;  
+background-color: #3c921b;     
+  border-radius: 50px;
+  text-align: center;           
+  margin-top: -25px;
+  margin-left: -21px; 
+}  
+
+.education{
+display: inline-block;  
+background-color: #3c921b;    
+  border-radius: 50px;
+  text-align: center;           
+  margin-top: -15px;  
+  margin-left: -23px; 
+}
+img{
+    position: absolute;
+    top: -1px;
+    left: 147px;
+    width: 119px;
+    height: 145px;
+    margin-top: 5px;
+    margin-bottom: 54px;
+     border-radius: 50%;
+}
+
+
+    
